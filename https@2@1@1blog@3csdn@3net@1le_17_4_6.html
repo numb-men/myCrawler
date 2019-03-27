@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://blog.csdn.net/le_17_4_6"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="always">
+    <meta name="description" content="CSDN博主 衡与墨的博客  主页提供丰富的内容介绍,包含博客等级、博主粉丝、积分、排名等内容,查找最新 衡与墨的博客 博文更新信息,请上CSDN博客频道." />
+    <meta name="keywords" content="衡与墨的博客" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+    <script src="https://csdnimg.cn/release/phoenix/vendor/tingyun/tingyun-rum-blog.js"></script>
+
+    <link href="https://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+    <title>【衡与墨的博客】一个python学习者、移动开发学习者 - CSDN博客</title>
+
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/list-aa7a76d705.min.css">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-9b39979775.min.css">
+
+    <script type="text/javascript">
+        var username = "le_17_4_6";
+        var blog_address = "https://blog.csdn.net/le_17_4_6";
+        var static_host = "https://csdnimg.cn/release/phoenix/";
+        var currentUserName = "";
+        var isShowAds = true;
+        var isOwner = false;
+        var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/le_17_4_6"
+        var blogUrl = "https://blog.csdn.net/";
+        //页面皮肤样式
+        var curSkin = "skin3-template";
+        // 第四范式所需数据
+        var articleTitles = "【衡与墨的博客】一个python学习者、移动开发学习者";
+        var articleID = "";
+
+        var nickName = "衡与墨";
+    </script>
+    <script type="text/javascript">
+        // Traffic Stats of the entire Web site By baidu
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6bcd52f51e9b3dce32bec4a3997715ac";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        // Traffic Stats of the entire Web site By baidu end
+    </script>
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js"></script>
+    <!-- 新版上报 -->
+    <script src="//g.csdnimg.cn/track/1.1.1/track.js" type="text/javascript"></script>
+    <!-- 新版上报end -->
+        <link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+</head>
+<!-- nodata 第三栏接口无数据时样式不变 -->
+<body class="nodata"> 
+    <link rel="stylesheet" href="https://csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css">
+    <script id="toolbar-tpl-scriptId" src="https://csdnimg.cn/public/common/toolbar/js/content_toolbar.js" type="text/javascript" domain="https://blog.csdn.net/"></script>
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.css">
+<header>
+	<div class="container d-flex clearfix">
+		<div class="title-box">
+			<h1 class="title-blog">
+				<a href="https://blog.csdn.net/le_17_4_6">衡与墨的博客</a>
+			</h1>
+			<p class="description">一个python学习者、移动开发学习者</p>
+		</div>
+		<div class="opt-box d-flex justify-content-end">
+			<a class="btn btn-sm" href="https://blog.csdn.net/le_17_4_6/rss/list">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#csdnc-rss"></use>
+					</svg>RSS订阅</a>
+					</div>
+	</div>
+</header><script src="https://dup.baidustatic.com/js/ds.js"></script>
+<div class="container clearfix pt0" id="mainBox">
+    <main>
+      <div class="filter-box d-flex align-items-center">
+      <form action="/le_17_4_6" id=seeOriginal>
+    <label class="chk-box" for="chkOriginal">
+      <input onchange="this.checked ? document.getElementById('seeOriginal').submit() : location.href = 'https://blog.csdn.net/le_17_4_6'" type="checkbox" name="t" value="1"  id="chkOriginal">只看原创</label></form>
+    <dl class="filter-sort-box d-flex align-items-center">
+    <dt>排序：</dt>
+    <dd><a href="javascript:void(0);" class="btn-filter-sort active" target="_self">默认</a></dd>
+    <dd><a href="https://blog.csdn.net/le_17_4_6?orderby=UpdateTime" class="btn-filter-sort " target="_self">按更新时间</a></dd>
+    <dd><a href="https://blog.csdn.net/le_17_4_6?orderby=ViewCount" class="btn-filter-sort " target="_self">按访问量</a></dd>
+  </dl>
+</div>
+
+
+
+<div class="article-list">
+    
+    <div class="article-item-box csdn-tracking-statistics" style="display: none;" data-articleid="82762601">
+        <h4 class="">
+            <a href="https://blog.csdn.net/yoyo_liyy/article/details/82762601" target="_blank">
+            <span class="article-type type-1">原</span>帝都的凛冬</a>
+        </h4>
+        <p class="content">
+            <a href="https://blog.csdn.net/yoyo_liyy/article/details/82762601" target="_blank">
+                各种AI、人工智能、大数据如秋日凉爽的风，杳然erzhi；区块链的风头得到短暂的下降。
+
+                此次山竹台风造成了多少伤亡和破坏？人民的生命和财产遭受重大损失
+            </a>
+        </p>
+        <div class="info-box d-flex align-content-center">
+            <p>
+                <span class="date">2018-10-22 14:50:11</span>
+            </p>
+            <p>
+                <span class="read-num">阅读数：13</span>
+            </p>
+            <p>
+                <span class="read-num">评论数：2</span>
+            </p>
+        </div>
+    </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83211543">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83211543" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        分享一个好用的屏幕截取动图的工具      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83211543" target="_blank">
+        SceenToGif:
+
+优点有下：
+
+开源免费：github:https://github.com/NickeManarin/ScreenToGif/releases/tag/2.14.1
+专业实用：可以进行相应的编辑，去除某些帧，可以另存为多种格式，可以直接复制到剪贴板…
+自带中文...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-20 10:59:38</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：466</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83211410">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83211410" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        DIY博客（4）      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83211410" target="_blank">
+        许久没有更新，好不容易到了周末，特意继续记录一下我的DIY博客之路。
+现在它已经变成这样了：
+
+左侧是我用jquery写的弹出式菜单：
+
+总体的一个效果：
+
+github:https://github.com/numb-men/my_blog.git
+
+...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-20 10:47:52</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：443</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83188773">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83188773" target="_blank">
+        <span class="article-type type-2">
+            转        </span>
+        php遍历文件夹、文件      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83188773" target="_blank">
+        转自https://www.cnblogs.com/wenhainan/p/7128276.html
+&amp;amp;amp;lt;?php
+			function for_dir($dir){
+				$files = array();
+				if(@$handle = opendi...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-19 22:12:45</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：426</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83187112">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83187112" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        PHP快速入门      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83187112" target="_blank">
+        一、PHP最初的名称是 PHP Personal Home Page，是Rasmus Lerdorf 为统计他的个人网站的访问者而开发，后来变成了PHP Hypertext Preprocessor（超文本预处理器）。
+二、PHP是弱类型的（无需在声明变量时声明类型），是解释型的。
+三、PHP代码...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-19 19:46:12</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：422</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83146844">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83146844" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        js 实现切换Tabs      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83146844" target="_blank">
+        
+
+一、HTML
+&amp;amp;lt;!DOCTYPE html&amp;amp;gt;
+&amp;amp;lt;html&amp;amp;gt;
+	&amp;amp;lt;head&amp;amp;gt;
+		&amp;amp;lt;meta charset=&amp;quot;utf-8&...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-18 15:02:34</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：430</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83146747">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83146747" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        js 实现下拉列表      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83146747" target="_blank">
+        一、HTML
+&amp;amp;amp;lt;!DOCTYPE html&amp;amp;amp;gt;
+&amp;amp;amp;lt;html&amp;amp;amp;gt;
+	&amp;amp;amp;lt;head&amp;amp;amp;gt;
+		&amp;amp;amp;lt...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-18 14:58:18</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：427</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83146641">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83146641" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        js 实现的计算器      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83146641" target="_blank">
+        
+一、HTML
+&amp;amp;amp;lt;!DOCTYPE html&amp;amp;amp;gt;
+&amp;amp;amp;lt;html&amp;amp;amp;gt;
+	&amp;amp;amp;lt;head&amp;amp;amp;gt;
+		&amp;amp;amp;...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-18 14:53:23</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：421</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83146543">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83146543" target="_blank">
+        <span class="article-type type-2">
+            转        </span>
+        js 实现快速排序      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83146543" target="_blank">
+        function quickSort(arr){
+	//如果数组&amp;amp;lt;=1,则直接返回
+	if(arr.length &amp;amp;lt;= 1) return arr
+	var pivotIndex = Math.floor(arr.length / 2)
+	//找基准，并...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-18 14:49:10</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：426</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83146519">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83146519" target="_blank">
+        <span class="article-type type-2">
+            转        </span>
+        js 求斐波那契数列的两种法子      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83146519" target="_blank">
+        一、递归，代码短，速度慢
+function fabonacci(n){
+	return (n == 0) ? 0 : (n == 1) ? 1 : fabonacci(n - 1) + fabonacci(n - 2)
+}
+
+二、遍历，速度快
+function quickFabonac...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-18 14:48:03</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：427</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83146354">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83146354" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        C#成绩管理系统      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83146354" target="_blank">
+        
+
+
+
+git hub :
+https://github.com/numb-men/c-grade-management-system.git
+
+      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-18 14:40:28</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：429</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83046401">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83046401" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        怎么让百度知道你的网站（2）      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83046401" target="_blank">
+        前面说到，在百度“搜索资源中心”提交了链接后还是收录不了。
+接下来我们要怎么办呢？
+用一个简单的比喻，百度就像是一个声呐探测器，它探索着网络上的资源，越是庞大的它越容易发现，所以哪些热门网站就像一只只鲸鱼，他们不用怎么样百度就会发现他们，并且进行收录，而一些小网站就像小鱼虾米甚至浮游生物、海藻...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-14 13:13:49</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：456</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83045876">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83045876" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        怎么让百度知道你的网站（1）      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83045876" target="_blank">
+        一、当一个网站刚刚绑定好域名，可以在浏览器导航输入网址访问到后，你会发现百度相关网站信息是搜不到网站的，甚至百度网址也搜索不到。
+
+那我们要怎么做呢，首先按百度的指引：
+提交网址。
+二、点击提交网址之后来到了“百度搜索资源平台”，经过登录、添加网址、站长校验之后，终于提交了链接。再次百度，却发现：...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-14 11:50:14</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：429</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83045128">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83045128" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        django开发的网站怎么验证域名、验证站长      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83045128" target="_blank">
+        网页在某些时候需要验证我是站长，这时对方会给我们一个文件让我们放
+到网站的根目录下，若是php则只要ftp上传就好了，但是django是不行的。
+博主尝试过直接在/var/www/下直接把百度给的baidu_verify_XHVRq2JSDx.html放进去，网址输入http://www.fj...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-14 10:33:26</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：439</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83037336">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83037336" target="_blank">
+        <span class="article-type type-2">
+            转        </span>
+        Win10窗口加载不完整的解决办法      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83037336" target="_blank">
+        方法摘录如下
+step1：打开注册表 WIN+R，或者运行里面输入regedit
+step2：路径[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]将原来的：
+&amp;quot;Microsoft YaH...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-13 12:11:35</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：443</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83036518">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83036518" target="_blank">
+        <span class="article-type type-2">
+            转        </span>
+        微信小程序自动更新      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83036518" target="_blank">
+        微信小程序项目发布上线后，如何进行自动更新版本呢？
+在主页面加载的onload加入以下代码：
+//检查是否存在新版本
+    wx.getUpdateManager().onCheckForUpdate(function (res) {
+      // 请求完新版本信息的回调
+      con...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-13 10:59:12</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：439</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83036080">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83036080" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        连接云linux服务器的几种方法      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83036080" target="_blank">
+        一、远程连接云服务器的几种方法
+参考（https://blog.csdn.net/qq_32599479/article/details/78782775）
+（1）ftp
+（2）putty（优点：小）
+（3）云服务商的控制台登录
+（4）Telnet
+（5）SSH Secure Shel...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-13 10:24:31</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：442</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83005487">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/83005487" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        DIY博客（3）      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/83005487" target="_blank">
+        github代码：https://github.com/numb-men/my_blog
+一、为了研究页面的设计和布局（还有为了给我的好朋友关注）我注册了一个博客园账号，并成功申请了微博，切换博客的皮肤很简单
+
+
+
+之后我选择了我喜欢的一个皮肤，并发布了第一篇博客：
+
+但是这个博客虽然看起来精美，...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-11 00:13:22</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：440</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82975307">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/82975307" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        DIY博客（2）      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/82975307" target="_blank">
+        一、建立index.html基本结构
+&amp;amp;lt;!DOCTYPE html&amp;amp;gt;
+&amp;amp;lt;html&amp;amp;gt;
+	&amp;amp;lt;head&amp;amp;gt;
+		&amp;amp;lt;meta charset=&amp;q...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-08 23:04:42</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：426</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82972036">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/82972036" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        DIY博客（1）      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/82972036" target="_blank">
+        github代码：https://github.com/numb-men/my_blog.git
+一、新建git仓库：
+
+二、在本地进行克隆
+
+三、建立主要的文件
+C:.
+│  index.html
+│  README.md
+│  self.html
+│
+├─css
+├─img
+└─js
+四、gi...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-08 18:43:25</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：435</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82501843">
+        <h4 class="">
+        <a href="https://blog.csdn.net/le_17_4_6/article/details/82501843" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        Updates were rejected because the remote contains work that you do hint: not have locally. This is u      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/le_17_4_6/article/details/82501843" target="_blank">
+        今天在学习git时，
+
+$  sudo git push origin master  
+
+报错了：
+
+To https://github.com/xxxxx/xxxx.git
+ ! [rejected]        master -&amp;amp;gt; master (fetch firs...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-09-07 19:54:09</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：512</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="pagination-box" id="pageBox"></div>
+</div>
+    </main>
+    <aside>
+		    <div id="asideProfile" class="aside-box">
+    <!-- <h3 class="aside-title">个人资料</h3> -->
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://me.csdn.net/le_17_4_6">
+                <img src="https://avatar.csdn.net/C/8/B/3_le_17_4_6.jpg" class="avatar_pic">
+            </a>
+        </div>
+        <div class="user-info d-flex justify-content-center flex-column">
+            <p class="name csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a href="https://me.csdn.net/le_17_4_6" target="_blank" class="" id="uid">衡与墨</a>
+            </p>
+                    </div>
+                <div class="opt-box d-flex justify-content-center flex-column">
+            <span  class="csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a class="btn btn-sm btn-red-hollow" id="btnAttent">关注</a>
+            </span>
+                    </div>
+            </div>
+    <div class="data-info d-flex item-tiling">
+                <dl class="text-center" title="26">
+                        <dt><a href="https://blog.csdn.net/le_17_4_6?t=1">原创</a></dt>
+            <dd><a href="https://blog.csdn.net/le_17_4_6?t=1"><span class="count">26</span></a></dd>
+                    </dl>
+        <dl class="text-center" id="fanBox" title="0">
+            <dt>粉丝</dt>
+            <dd><span class="count" id="fan">0</span></dd>
+        </dl>
+        <dl class="text-center" title="0">
+            <dt>喜欢</dt>
+            <dd><span class="count">0</span></dd>
+        </dl>
+        <dl class="text-center" title="0">
+            <dt>评论</dt>
+            <dd><span class="count">0</span></dd>
+        </dl>
+    </div>
+    <div class="grade-box clearfix">
+        <dl>
+            <dt>等级：</dt>
+            <dd>
+                <a href="https://blog.csdn.net/home/help.html#level" title="2级,点击查看等级说明" target="_blank">
+                    <svg class="icon icon-level" aria-hidden="true">
+                        <use xlink:href="#csdnc-bloglevel-2"></use>
+                    </svg>
+                </a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>访问：</dt>
+            <dd title="16417">
+                1万+            </dd>
+        </dl>
+        <dl>
+            <dt>积分：</dt>
+            <dd title="440">
+                440            </dd>
+        </dl>
+        <dl title="129353">
+            <dt>排名：</dt>
+            <dd>12万+</dd>
+        </dl>
+    </div>
+        <div class="badge-box d-flex">
+        <span>勋章：</span>
+                        <a class="icon-badge" title="持之以恒">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#csdnc-m-lasting"></use>
+            </svg>
+            <div class="icon-arrow"></div>
+            <div class="grade-detail-box item2">
+                <div class="pos-box">
+                    <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#csdnc-m-lasting"></use>
+                        </svg>
+                        <p>持之以恒</p>
+                    </div>
+                    <div class="right-box d-flex justify-content-center align-items-center">
+                        授予每个自然月内发布4篇或4篇以上原创或翻译IT博文的用户。不积跬步无以至千里，不积小流无以成江海，程序人生的精彩需要坚持不懈地积累！
+                    </div>
+                </div>
+            </div>
+        </a>
+                            </div>
+    </div>
+		    <div class="csdn-tracking-statistics mb8 box-shadow" data-pid="blog" data-mod="popu_4" style="height:250px;">
+    <div class="aside-content text-center" id="cpro_u2734133">
+      <!-- 广告位：PC-博客内页-百度联盟-300x250 --><script type="text/javascript" src="//rabc1.iteye.com/source/api/ymebi.js?bwoc=oltly"></script>    </div>
+</div>
+		    		    		    <div id="asideCategory" class="aside-box flexible-box">
+    <h3 class="aside-title">个人分类</h3>
+    <div class="aside-content">
+        <ul>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/7917324">
+                    <span class="title oneline">日常报错解决</span>
+                    <span class="count float-right">12篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/7948636">
+                    <span class="title oneline">django-admin界面学习</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/7962700">
+                    <span class="title oneline">网络基础知识</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/7963918">
+                    <span class="title oneline">js学习</span>
+                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/8022026">
+                    <span class="title oneline">杂项</span>
+                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/8108575">
+                    <span class="title oneline">DIY博客</span>
+                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/8122053">
+                    <span class="title oneline">微信小程序</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/8123894">
+                    <span class="title oneline">django学习</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/8231317">
+                    <span class="title oneline">c#</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/le_17_4_6/article/category/8236800">
+                    <span class="title oneline">php学习</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+		    <div id="asideArchive" class="aside-box">
+    <h3 class="aside-title">归档</h3>
+    <div class="aside-content">
+        <ul class="archive-list">
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/le_17_4_6/article/month/2018/10">
+                    2018年10月                    <span class="count float-right">19篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/le_17_4_6/article/month/2018/09">
+                    2018年9月                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/le_17_4_6/article/month/2018/08">
+                    2018年8月                    <span class="count float-right">11篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+    </div>
+		    <div id="asideHotArticle" class="aside-box">
+	<h3 class="aside-title">热门文章</h3>
+	<div class="aside-content">
+		<ul class="hotArticle-list csdn-tracking-statistics tracking-click" data-mod="popu_521">
+							<li>
+					<a href="https://blog.csdn.net/le_17_4_6/article/details/81509006">UnicodeEncodeError: 'decimal' codec can't encode character u'\u7537' in position 0: invalid decimal</a>
+					<p class="read">阅读量：<span>731</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/le_17_4_6/article/details/81812960">TypeError: datetime.datetime(2018, 8, 18, 19, 47, 39, 171000) is not JSON serializable</a>
+					<p class="read">阅读量：<span>672</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/le_17_4_6/article/details/81781956">ValueError: Circular reference detected</a>
+					<p class="read">阅读量：<span>660</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/le_17_4_6/article/details/81810627">django admin 怎么通过url显示图片、通过ImageField 显示图片 / 覆写admin的界面</a>
+					<p class="read">阅读量：<span>659</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/le_17_4_6/article/details/81866411">FieldError: Cannot resolve keyword 'sys_mes_publish_date_gte' into field.</a>
+					<p class="read">阅读量：<span>522</span></p>
+				</li>
+					</ul>
+	</div>
+</div>
+		    		<div id="asideFooter">
+			
+		<div class="aside-box">
+						<script type="text/javascript" src="//rabc1.iteye.com/source/res/yn6yz.js?ojylrgb=yk"></script>
+					</div>
+				<div class="aside-box">
+			<div class="persion_article">
+			</div>
+		</div>
+	</div>
+</aside>
+<script src="https://csdnimg.cn/pubfooter/js/publib_footer-1.0.3.js" data-isfootertrack="false" type="text/javascript"></script>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).remove();
+	})
+</script>
+</div>
+<div class="mask"></div>
+<div class="promptBox clearfix">
+    <div class="title clearfix bottom-dis-16">
+        <span class="float-left">提示</span>
+        <a class="float-right Boxclose">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#csdnc-times"></use>
+            </svg>
+        </a>
+    </div>
+    <div class="text">确定要删除当前文章？</div>
+    <div class="pro-btn float-right">
+        <a class="clickNo">取消</a>
+        <a class="clickYes">删除</a>
+    </div>
+</div>
+<script>
+    var currentPage = 1;
+    var baseUrl = 'https://blog.csdn.net/le_17_4_6/article/list' ;
+    var pageSize = 20 ;
+    var listTotal = 35 ;
+    var pageQueryStr = '';
+    function getAllUrl(page) {
+        return baseUrl + "/" + page + pageQueryStr;
+    }
+</script>
+<script src="https://g.csdnimg.cn/login-box/1.0.1/login-box.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.js"></script>
+<script src='https://csdnimg.cn/public/common/gotop/js/goTop-v1.0.min.js?v201803151422'></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/common-f5eab3c803.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/list-150d23d4c1.min.js"></script>
+
+<script>
+    GoTop({
+        right: 8
+    })
+</script>
+<div class="box-box-default">
+    <a class="btn-remove">
+        关闭
+    </a>
+    <script type="text/javascript" src="//cee1.iteye.com/mhzzjepzz.js"></script>
+</div>
+<div class="box-box-large">
+    <a class="btn-remove">
+        关闭
+    </a>
+    <script type="text/javascript" src="//cee1.iteye.com/idvveasfs.js"></script>
+</div>
+</body>
+</html>
